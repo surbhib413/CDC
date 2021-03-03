@@ -1,0 +1,81 @@
+.itrmLandingContainer {
+  width: 3219px;
+  height: 2160px;
+  background-color: rgb(0, 0, 0);
+  padding: 0px 33px 35px 35px;
+  font-family: Titillium Web;
+  // border: solid 0.2px #959595;
+
+  .itrmHeading {
+    border-bottom: solid 0.2px #959595;
+    height: 114px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+.mumbaiKochiButton {
+
+  right: -1047px;
+  cursor: pointer;
+  font-family: Titillium Web;
+  position: relative;
+  height: 65px;
+  width: 346px;
+  border-radius: 4px;
+  border: solid 1.5px #97a4ba;
+  font-size: 32px;
+
+  .mumbaiLeftEnabled {
+    flex: 1;
+    height: 100%;
+    font-weight: bold;
+    background-color: #141923;
+    color: #06bee1;
+    border-right: 1px solid #67758d;
+  }
+
+  .mumbaiLeftDisabled {
+    height: 100%;
+    flex: 1;
+    // height: 64px;
+    background-color: #283040;
+    font-weight: bold;
+    color: #4e5564;
+    border-right: 1px solid #67758d;
+  }
+
+
+  .kochiRightEnabled {
+    height: 100%;
+    flex: 1;
+    // height: 64px;
+    font-weight: bold;
+    background-color: #141923;
+    border-left: 1px solid #67758d;
+    color: #b76df1
+  }
+
+  .kochiRightDisabled {
+    height: 100%;
+    flex: 1;
+    font-weight: bold;
+    // height: 64px;
+    background-color: #283040;
+    border-left: 1px solid #67758d;
+    color: #4e5564;
+  }
+}
+
+.mapAndGraphContainer {
+  border-right: 0.5px solid #959595;
+  height: 1219px;
+  width: 100%;
+
+  .rightGraphContainer {
+    border-left: 1px solid #959595;
+
+  }
+}

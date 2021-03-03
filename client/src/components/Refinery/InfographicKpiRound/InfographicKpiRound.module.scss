@@ -1,0 +1,31 @@
+.cduContainer {
+
+  // top:108px;
+  // left: 956px;
+  // text-align: center;
+  // font-family: Titillium Web;
+  position: absolute;
+  height: 140px;
+  min-width: 140px;
+  background-color: rgb(31, 37, 50);
+  // background-color: #323b4e;
+  border-radius: 50%;
+  border: solid 2.5px #25ceda;
+  font-size: 27px;
+  
+  .cduLeft {
+    padding-top: 10px;
+    flex: 1;
+    height: 50px;
+    font-weight: bold;
+    color: #dee5ef;
+    border-bottom: 3px solid #979797;
+  }
+
+  .cduRight {
+    flex: 1;
+    padding-bottom: 10px;
+    height: 50px;
+    color: #06bee1
+  }
+}

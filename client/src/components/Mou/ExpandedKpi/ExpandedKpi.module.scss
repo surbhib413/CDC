@@ -1,0 +1,24 @@
+.turnover {
+  background-color: #283040;
+  font-family: Titillium Web;
+  color: #dee5ef;
+  border-top: 1px solid #424b5f;
+
+  .kpi_section_header_container {
+    font-size: 40px;
+    margin-left: 150px;
+
+    .span1 {
+      font-size: 32px;
+    }
+
+    .span2 {
+      font-size: 22px;
+    }
+  }
+
+  .lineGraph {
+    padding: 20px 20px 20px 64px;
+  }
+
+}

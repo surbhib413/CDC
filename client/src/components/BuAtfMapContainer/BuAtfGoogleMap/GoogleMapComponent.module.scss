@@ -1,0 +1,116 @@
+// .noCloseButton .infoBox img{ visibility: hidden; }
+.resetZoomButton {
+  position: relative;
+  width: 100px;
+  left: 20px;
+  bottom: 100px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mapKpiSelectorContainer {
+  position: relative;
+  width: 200px;
+  position: relative;
+  left: 24px;
+  bottom: 1870px;
+
+  .mapKpiSelector {
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    color: rgb(142, 148, 157);
+    background-color: rgb(42, 53, 72);
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #54e2d9;
+    color: #2a3548
+  }
+}
+
+.tabLabelsContainer {
+  position: relative;
+  bottom: 2232px;
+  left: 1110px;
+  width: 466px;
+  height: 80px;
+  background-color: rgb(36, 45, 62);
+  color: #97abd2;
+  font-size: 20px;
+
+  .poorDot {
+    width: 17.1px;
+    height: 17px;
+    border-radius: 2px;
+    background-color: rgb(255, 91, 79);
+  }
+
+  .fairDot {
+    width: 17.1px;
+    height: 17px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: rgb(255, 141, 56);
+  }
+
+  .goodDot {
+    width: 17.1px;
+    height: 17px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: rgb(255, 236, 109);
+  }
+
+  .excellentDot {
+    width: 17.1px;
+    height: 17px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: rgb(125, 242, 137);
+  }
+}
+
+.mapTableContainer{
+  position: relative;
+  bottom: 890px;
+  left: 220px; 
+}
+
+.infoWindowContainer {
+  padding:0;
+  font-family: Titillium Web;
+  width: 287px;
+  height: 255px;
+  background-color: rgba(24, 30, 42, 0);
+  // background-color: rgb(24, 30, 42);
+  color: "white";
+  border: none;
+
+  .infoWindowTitle {
+    font-size: 28px;
+    color: #b9c8e1;
+  }
+
+  .titleLine {
+    border-color: #b9c8e1;
+    width: 50px;
+    height:1px;
+    margin:5px 0px 10px 0px;
+  }
+
+  .infoWindowContent {
+    color: #b9c8e1;
+    font-size: 22px;
+  }
+  .contentTitle{
+    margin-right: 10px;
+  }
+}

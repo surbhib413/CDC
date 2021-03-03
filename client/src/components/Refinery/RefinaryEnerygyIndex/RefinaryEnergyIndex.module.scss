@@ -1,0 +1,42 @@
+.EnergyIndexContainer {
+  border: 0.5px #a7a7a7 solid;
+  border-bottom: none;
+  font-family: Titillium Web;
+  width: 644px;
+  height: 653px;
+  background-color: #141923;
+  color: #dee5ef;
+  position: relative;
+  border-left: none;
+
+  .graphTitle {
+    height: 88px;
+    border: 0.5px #a7a7a7 solid;
+    border-left: none;
+    background-color: black;
+    font-size: 35px;
+    padding-left: 36px;
+    font-weight: bold;
+  }
+
+  .refineryEnergyIndexFooter {
+    border: 0.5px #a7a7a7 solid;
+    border-left: none;
+    // border-right: none;
+    height: 64px;
+    background-color: #283040;
+
+    .footerLeft {
+      margin-left: 36px;
+      color: #ffffff;
+      font-size: 22px;
+      text-decoration: underline;
+    }
+
+    .footerRight {
+      margin-right: 36px;
+      font-size: 22px;
+      font-style: italic;
+    }
+  }
+}

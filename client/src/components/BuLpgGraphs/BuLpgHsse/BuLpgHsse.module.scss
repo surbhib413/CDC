@@ -1,0 +1,158 @@
+.BuTransportationContainer {
+    // width: 1033px;
+    // margin-right: 10px;
+    // margin-bottom: 18px;
+    // border: solid 0.5px rgb(149, 149, 149);
+    //background-color: rgb(32, 44, 63);
+    font-family: Titillium Web;
+
+    .headerContainer {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        padding-right: 45px;
+
+        .headerLeft {
+            color: white;
+            .heading {
+                font-size: 35px;
+                font-weight: bold;
+            }
+
+            .headerLabels {
+                color: #64779c;
+                font-size: 20px;
+                .actualDot {
+                    height: 18px;
+                    width: 18px;
+                    background-color: rgb(162, 65, 247);
+                    border-radius: 15%;
+                }
+
+                .targetDot {
+                    height: 18px;
+                    width: 18px;
+                    background-color: rgb(162, 65, 247);
+                    border-radius: 15%;
+                }
+            }
+        }
+
+        .headerRight {
+            color: white;
+            font-size: 24px;
+        }
+    }
+
+    .graphContainer {
+        position: relative;
+        // //width: 756px;
+        width: 880px;
+        // height: 400px;
+        margin-left: 45px;
+        margin-top: 32px;
+
+        .header {
+            font-family: Titillium Web;
+            font-size: 28px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .Table {
+            display: table;
+            border-collapse: collapse;
+            border-radius: 1em;
+            background-color: #2a3548;
+        }
+        .Title {
+            display: table-caption;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            //border: none;
+        }
+        .Heading {
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+
+            //border: none;
+        }
+        .Row {
+            display: table-row;
+            border-bottom: solid;
+            border-color: transparent;
+            border-width: 0.1px;
+        }
+
+        .col {
+            border-right: 0.1px solid grey;
+            opacity: 0.7;
+        }
+        .Cell {
+            display: table-cell;
+            width: 400px;
+            height: 120px;
+            padding-top: 10px;
+            text-align: center;
+            align-items: center;
+            font-family: Titillium Web;
+            font-size: 25px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: #2a3548;
+            opacity: 0.7;
+        }
+
+        .subLabel{
+            color: #64779c;
+        }
+        .MsHsdContainer {
+            position: relative;
+            right: -100px;
+
+            .MsCircle {
+                height: 48px;
+                width: 45px;
+                background-color: #202c3f;
+                border: solid 1px white;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 9px;
+                top: -11px;
+                position: relative;
+
+                .Ms {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .HsdCircle {
+                height: 48px;
+                width: 45px;
+                background-color: #202c3f;
+                border: solid 1px white;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 9px;
+
+                .Hsd {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

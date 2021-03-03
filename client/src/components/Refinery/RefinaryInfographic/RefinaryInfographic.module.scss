@@ -1,0 +1,54 @@
+.InfographicContainer {
+  // padding: 52px;
+  height: 1440px;
+  position: relative;
+  background-color: #283040;
+}
+.kochiImage{
+  margin-top: -8px;
+}
+
+.ytdMtd {
+  left: 179px;
+  top: 158px;
+  text-align: center;
+  font-family: Titillium Web;
+  position: absolute;
+  height: 52px;
+  width: 389px;
+  background-color: #323b4e;
+  border-radius: 4px;
+  // border: solid 1px #67758d;
+  font-size: 27px;
+
+  .ytd {
+    flex: 1;
+    border-right: 0.5px solid #67758d;
+    .value {
+      flex: 1;
+      padding-left: 20px;
+      color: #06bee1
+    }
+
+    .percentage {
+      flex: 1;
+      padding-right: 20px;
+      color: white
+    }
+  }
+
+  .mtd {
+    flex: 1;
+    .value {
+      flex: 1;
+      padding-left: 20px;
+      color: #06bee1
+    }
+    
+    .percentage {
+      flex: 1;
+      padding-right: 20px;
+      color: white
+    }
+  }
+}

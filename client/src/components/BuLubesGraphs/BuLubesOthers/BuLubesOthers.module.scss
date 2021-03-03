@@ -1,0 +1,118 @@
+.BuLubesOthersContainer {
+  width: 1041px;
+  margin-right: 10px;
+  // margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+
+  .BuCcsHeader {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .HeaderTop {
+      color: white;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .legendsContainer {
+      // margin-left: 50px;
+      // margin-right: 130px;
+      margin-top: 10px;
+      font-size: 20px;
+      color: #64779c;
+
+      .legendsHeader {
+        color: #fafafa;
+        font-size: 24px;
+        ;
+      }
+
+      .dot1 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, #00a8ec, #00e0bc);
+        border-radius: 50%;
+      }
+
+      .dot2 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, #ff588c 0%, #fac159 137%);
+        border-radius: 50%;
+      }
+
+      .dot3 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(33deg, #ffbf45 25%, #ffd179 97%);
+        border-radius: 50%;
+      }
+
+      .dot4 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, #ff7bda 11%, #f35bc8 40%, #e640b7);
+        border-radius: 50%;
+      }
+    }
+
+  }
+
+  .graphContainer {
+
+    height: 450px;
+
+    // background-color: #141923;
+    .pieChartTitle {
+      color: #fafafa;
+      font-size: 24px;
+
+    }
+
+    .contentRow1 {
+      font-family: Titillium Web;
+      // widows: 100%;
+      height: 384px;
+      // opacity: 0.7;
+      background-color: rgb(42, 53, 72);
+      // margin-right: 90px;
+      // margin-bottom: 25px;
+      // margin-left: 45px;
+
+
+      .graphHeaderSection {
+        flex: 1;
+        padding: 0px 25px;
+        font-size: 25px;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        .graphHeaderSectionTop {
+          font-size: 25px;
+
+          .topLeft {
+            color: white;
+          }
+
+          .topRight {
+            margin-left: 20px;
+          }
+        }
+
+        .graphHeaderSectionBottom {
+          opacity: 0.5;
+          margin-top: 5px;
+        }
+      }
+
+      :last-child {
+        border-bottom: none;
+      }
+
+    }
+  }
+
+}

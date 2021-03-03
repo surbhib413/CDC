@@ -1,0 +1,84 @@
+.totalCapexContainer {
+  height: 326px;
+  background-color: rgb(32, 44, 63);
+  margin-top: 24px;
+  font-family: Titillium Web;
+
+  .totalCapexHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .totalCapexContentContainer {
+    background-color: rgb(47, 61, 83);
+    margin: 24px;
+    height: 194px;
+  }
+}
+
+.barContainer {
+  // padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+
+  .barHeader {
+    color: white;
+    .barHeaderTitle {
+      color: #fafafa;
+      font-size: 24px;
+    }
+
+    font-size: 25px;
+
+    .topLeft {
+      color: white;
+    }
+
+    .topRight {
+      margin-left: 20px;
+    }
+  }
+
+  .barAndValue {
+    height: 22px;
+    margin-bottom: 10px;
+  }
+
+  // .barStyle {
+  //   padding: 0px 20px 0px 20px;
+  // }
+  .progressBar {
+    // background: #35425c;
+    // width: 100%;
+    font-size: 20px;
+  }
+
+  .percentageBarGreen {
+    background: linear-gradient(to left, #00a8ec, #00e0bc);
+    padding: 10px;
+    height: 45px;
+  }
+
+  .percentageBarOrange {
+    background: white;
+    height: 45px;
+    padding: 10px;
+  }
+
+  .percentageBarRed {
+    background: linear-gradient(to left, rgb(255, 81, 58), rgb(230, 0, 0));
+    // height: 45px;
+    padding: 10px;
+  }
+
+  .fatalitiesText {
+    color: #dee5ef;
+    font-size: 22px;
+    position: relative;
+    bottom: 13px;
+  }
+}

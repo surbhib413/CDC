@@ -1,0 +1,46 @@
+.landing {
+  font-family: Titillium Web;
+  .kpi_section_header_container {
+    text-align: center;
+    height: 114px;
+    background-color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-bottom: 1px #1b242b solid;
+  }
+
+  .kpi_section_overview_container {
+    font-size: 26px;
+    height: 114px;
+    background-color: #283040;
+
+    .kpi_section_overview_left {
+      border-right: solid 2px #000000;
+
+      .performance_title {
+        color: #dee5ef;
+      }
+
+      .performance_value {
+        padding-left: 5px;
+        color: #ffc108;
+      }
+    }
+
+    .kpi_section_overview_right {
+      .score_title {
+        color: #dee5ef;
+      }
+
+      .score_value {
+        padding-left: 5px;
+        color: #8bc34a;
+      }
+    }
+  }
+}

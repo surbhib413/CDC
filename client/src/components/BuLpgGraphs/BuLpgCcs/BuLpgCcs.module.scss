@@ -1,0 +1,133 @@
+.BuCcsContiner {
+  width: 1041px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+  color: white;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: bold;
+
+    .headerRight {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .headerLabelsTarget {
+      color: white;
+      font-size: 24px;
+    }
+
+    .headerLabels {
+      color: #64779c;
+      font-size: 20px;
+
+      .actualDot {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        border-radius: 15%;
+      }
+
+      .targetDot {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        opacity: 0.3;
+        border-radius: 15%;
+      }
+    }
+  }
+  .graphContainer {
+    height: 452px;
+    width: 900px;
+    // background-color: #141923;
+    .legendsContainer {
+      font-size: 20px;
+      color: #64779c;
+
+      .legendsHeader {
+        color: #fafafa;
+        font-size: 24px;
+      }
+
+      .dot1 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        border-radius: 50%;
+      }
+
+      .dot2 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(193deg, rgb(255, 191, 69) 112%, rgb(255, 131, 9) -17%);
+        border-radius: 50%;
+      }
+
+      .dot3 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(255, 123, 218) 11%, rgb(243, 91, 200) 40%, rgb(230, 64, 183));
+        border-radius: 50%;
+      }
+
+      .dot4 {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(255, 88, 140) 0%, rgb(250, 193, 89) 128%);
+        border-radius: 50%;
+      }
+    }
+
+    .MsHsdContainer {
+      position: relative;
+      top: -130px;
+      right: 20px;
+
+      .MsCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+        top: -11px;
+        position: relative;
+
+        .Ms {
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      .HsdCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+
+        .Hsd {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .expandIconContainer {
+    .expandIcon {
+      position: relative;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+}

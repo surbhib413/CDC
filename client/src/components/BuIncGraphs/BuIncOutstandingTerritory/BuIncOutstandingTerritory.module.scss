@@ -1,0 +1,142 @@
+.BuLubesLossGainAnalysisContiner {
+    width: 1040px;
+    // margin-right: 10px;
+    // margin-bottom: 18px;
+    // border: solid 0.5px rgb(149, 149, 149);
+    background-color: rgb(32, 44, 63);
+    font-family: Titillium Web;
+    color: white;
+
+    .headerContainer {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+
+        .headerRight {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .headerLabelsTarget {
+            color: white;
+            font-size: 24px;
+        }
+
+        .headerLabels {
+            color: #64779c;
+            font-size: 20px;
+
+            .dot1 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #00a8ec, #00e0bc);
+                border-radius: 50%;
+            }
+
+            .dot2 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff588c 0%, #fac159 137%);
+                border-radius: 50%;
+            }
+
+            .dot3 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(33deg, #ffbf45 25%, #ffd179 97%);
+                border-radius: 50%;
+            }
+
+            .dot4 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff7bda 11%, #f35bc8 40%, #e640b7);
+                border-radius: 50%;
+            }
+
+            .dot5 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #b76df1 1%, #632897);
+                border-radius: 50%;
+            }
+
+            .dot6 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #b4ec51, #65ce3a 119%);
+                border-radius: 50%;
+            }
+        }
+    }
+    .graphContainer {
+        .graphFilters {
+            margin-left: 25px;
+            font-size: 24px;
+            color: white;
+        }
+        .revenueGrowthTableContainer {
+            margin-top: 0px;
+            font-family: Titillium Web;
+            // flex: 1;
+
+            .tableHeaderRowContainer {
+                height: inherit;
+                .tableHeaderRow {
+                    height: 48px;
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #fafafa;
+                    display: flex;
+                    align-items: center;
+
+                    .headerCell {
+                        display: flex;
+                        // flex: 1 1;
+                        align-items: center;
+                        justify-content: center;
+                        height: inherit;
+                        text-align: center;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            .tableDataRowContainer {
+                // overflow-y: scroll;
+                height: 400px;
+
+                .tableDataRow {
+                    // display: flex;
+                    flex: 1;
+                    align-items: center;
+                    height: 40px;
+                    color: white;
+                    font-size: 22px;
+
+                    .dataCell {
+                        display: flex;
+                        flex: 1 1;
+                        align-items: center;
+                        justify-content: center;
+                        height: inherit;
+                        text-align: center;
+                        // border-right: solid 2px rgba(149, 149, 149, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.grmGraph {
+    position: relative;
+    width: 756px;
+    height: 450px;
+    margin-left: 45px;
+    margin-top: 32px;
+}

@@ -1,0 +1,110 @@
+.BuGraphsContainer {
+    width: 3137px;
+  
+    .BuGraphsHeader {
+      height: 79px;
+      //opacity: 0.3;
+      background-color: #2a3548;
+  
+      .viewAsButton {
+        width: 327px;
+        height: 79px;
+        border: solid 1px rgb(149, 151, 155);
+        color: white;
+        font-size: 22px;
+      }
+    }
+  
+    .BuGraphsRow1 {
+      height: 639px;
+  
+      .salesRevenueContiner {
+        width: 1041px;
+        margin-right: 10px;
+        margin-bottom: 18px;
+        border: solid 0.5px rgb(149, 149, 149);
+        background-color: rgb(32, 44, 63);
+      }
+    }
+    .BuGraphsRow2 {
+      height: 639px;
+  
+      .salesRevenueContiner {
+        width: 1041px;
+        margin-right: 10px;
+        margin-bottom: 18px;
+        border: solid 0.5px rgb(149, 149, 149);
+        background-color: rgb(32, 44, 63);
+      }
+    }
+    .BuGraphsRow3 {
+      height: 621px;
+      color: white;
+      .salesRevenueContiner {
+        .BuGraphsRow4 {
+          height: 295px;
+          //border: solid 0.5px rgb(149, 149, 149);
+          background-color: rgb(32, 44, 63);
+        }
+        width: 1041px;
+        margin-right: 10px;
+        // margin-bottom: 18px;
+        // border: solid 0.5px rgb(149, 149, 149);
+      }
+    }
+  
+    .mapHeader {
+      height: 80px;
+      // background-color: #2a3548;
+      border-left: solid 0.5px rgba(149, 151, 155, 0.5);
+      border-top: solid 0.5px rgba(149, 151, 155, 0.5);
+      border-bottom: solid 0.5px rgba(149, 151, 155, 0.5);
+      color: white;
+      .headerDropdown {
+        width: 327px;
+        // height: 80px;
+        button::after {
+          display: none;
+        }
+  
+        button:focus {
+          box-shadow: none;
+        }
+  
+        .dropdownButton {
+          height: 100%;
+          width: 100%;
+          padding: 0px;
+          margin: 0px;
+          .dropdownName {
+            flex: 1;
+            font-size: 22px;
+            color: white;
+            // text-align: center;
+            // width:100%
+          }
+  
+          .dropdownIconContainer {
+            height: 77px;
+            width: 65px;
+            border-left: solid 1px rgba(149, 151, 155, 0.5);
+            border-right: solid 1px rgba(149, 151, 155, 0.5);
+          }
+        }
+        .dropdownMenuContainer {
+          width: 327px;
+          background-color: rgb(19, 23, 31);
+          .menuItem {
+            color: white;
+            font-size: 22px;
+            padding: 10px;
+            border-bottom: solid 1px rgba(149, 151, 155, 0.5);
+          }
+          :hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,210 @@
+.BuDepotInventoryContiner {
+    width: 1041px;
+    // margin-right: 10px;
+    margin-bottom: 18px;
+    // border: solid 0.5px rgb(149, 149, 149);
+    font-family: Titillium Web;
+    background-color: rgb(32, 44, 63);
+    color: white;
+
+    .headerContainer {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        font-size: 35px;
+        font-weight: bold;
+
+        .headerRight {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 0px 45px 0px 79px;
+            // padding-left: 55px;
+        }
+
+        .headerLabelsTarget {
+            color: white;
+            font-size: 24px;
+            padding: 0px 45px 0px 0px;
+            // padding-left: 55px;
+        }
+
+        .headerLabels {
+            color: #64779c;
+            font-size: 20px;
+
+            .bpclLabel {
+                color: white;
+            }
+
+            .meetsDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+                border-radius: 50%;
+            }
+
+            .belowDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(255, 145, 191), rgb(255, 88, 139));
+                border-radius: 50%;
+            }
+
+            .morethanDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(253, 224, 147), rgb(250, 189, 90));
+                border-radius: 50%;
+            }
+
+            .thirdPartyDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(253, 224, 147), rgb(250, 189, 90));
+                border-radius: 50%;
+            }
+
+            .salesProDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(255, 177, 179), rgb(253, 121, 124));
+                border-radius: 50%;
+            }
+
+            .othersDot {
+                height: 24px;
+                width: 24px;
+                border-radius: 50%;
+                background-image: linear-gradient(to bottom, rgb(255, 145, 191), rgb(255, 88, 139));
+            }
+        }
+
+        .headerRight {
+            color: white;
+            font-size: 24px;
+        }
+    }
+
+    .BuCcsHeader {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        padding-right: 45px;
+
+        .BuCcsHeaderLeft {
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .BuCcsHeaderRight {
+            font-size: 24px;
+            height: 100%;
+            // padding-top: 14px;
+            // padding-bottom: 14px;
+
+            .BuCcsHeaderResolved {
+                color: white;
+            }
+
+            .BuCcsHeaderReceived {
+                color: rgba(250, 250, 250, 0.5);
+            }
+        }
+    }
+
+    .graphContainer {
+        height: 452px;
+
+        .pieChartLabel {
+            font-family: Titillium Web;
+            font-size: 24px;
+        }
+
+        // background-color: #141923;
+        .legendsContainer {
+            margin-left: 50px;
+            // margin-right: 130px;
+            font-size: 20px;
+            color: #64779c;
+
+            .legendsHeader {
+                color: #fafafa;
+                font-size: 24px;
+            }
+
+            .dot1 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+                border-radius: 50%;
+            }
+
+            .dot2 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(193deg, rgb(255, 191, 69) 112%, rgb(255, 131, 9) -17%);
+                border-radius: 50%;
+            }
+
+            // .dot3{
+            //   height: 18px;
+            //   width: 18px;
+            //   background-color: #f9c059;
+            //   border-radius: 15%;
+            // }
+            .dot4 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, rgb(255, 88, 140) 0%, rgb(250, 193, 89) 128%);
+                border-radius: 50%;
+            }
+        }
+
+        .MsHsdContainer {
+            position: relative;
+            top: -130px;
+            right: -40px;
+
+            .MsCircle {
+                height: 48px;
+                width: 45px;
+                background-color: #202c3f;
+                border: solid 1px white;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 9px;
+                top: -11px;
+                position: relative;
+
+                .Ms {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .HsdCircle {
+                height: 48px;
+                width: 45px;
+                background-color: #202c3f;
+                border: solid 1px white;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 9px;
+
+                .Hsd {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .expandIconContainer {
+        .expandIcon {
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+}

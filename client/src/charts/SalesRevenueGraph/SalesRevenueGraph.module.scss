@@ -1,0 +1,26 @@
+.salesRevenueGraph {
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  //margin-left: 64px;
+  margin: 10px 0px 0px 15px;
+  //background-color: grey;
+
+  .leftDiv {
+    border: solid 0.1px black;
+  }
+
+  .centerDiv {
+    border: solid 0.1px black;
+  }
+
+  .rightDiv {
+    border: solid 0.1px black;
+  }
+}
+
+canvas{
+  margin:0;
+  padding: 0;
+
+}

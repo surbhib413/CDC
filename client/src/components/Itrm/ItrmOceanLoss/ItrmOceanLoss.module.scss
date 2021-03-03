@@ -1,0 +1,50 @@
+.itrmOceanLossContainer {
+  width: 1051px;
+  height: 406px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  font-family: Titillium Web;
+  color: white;
+
+
+  .headerContainer {
+    padding-left: 67px;
+    height: 75px;
+    padding-right: 36px;
+    // border-right: solid 0.2px #959595;
+
+    .headerLeft {
+      // height: inherit;
+
+      .heading {
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        // padding-top: 15px;
+      }
+
+    }
+
+    .headerRight {
+      font-size: 24px;
+      color: #b76df1;
+      font-weight: 600;
+    }
+  }
+
+  .graphContainer {
+    border-top: solid 0.5px #959595;
+    border-bottom: solid 0.5px #959595;
+    border-right: solid 0.5px #959595;
+
+    height: 333px;
+    background-color: #141923;
+  }
+
+  .mumbaiTheme{
+    color: #06bee1;
+  }
+
+  .kochiTheme{
+    color: #b76df1
+  }
+}

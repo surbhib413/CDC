@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://bpcl:bpcl@cluster0-idxwd.mongodb.net/KPI",
+  "mongoURI2": "mongodb://localhost:27017/KPI",
+  "mongoURI3": "mongodb://172.17.0.2:27017/KPI",
+  "migURL": "http://172.17.0.3:6000"
+}

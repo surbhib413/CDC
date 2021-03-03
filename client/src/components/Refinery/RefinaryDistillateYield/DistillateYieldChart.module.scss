@@ -1,0 +1,51 @@
+.grmGraph{
+  position: relative;
+  // width: 422px;
+  height: 384px  ;
+  // margin-top: 24px;
+  // margin-right: 36px;
+  // padding: 10px;
+}
+.legendsContainer {
+  font-family: Titillium Web;
+  font-size: 22px;
+  padding: 18px 36px 0px 36px;
+
+  .leftLegend {
+    .actualMumbai {
+      font-weight: bold;
+      color: #3873da;
+      height: 20px;
+    }
+    .actualKochi {
+      font-weight: bold;
+      color: #8e56e8;
+      height: 20px;
+    }
+
+    .target {
+      color: #a1adbb;
+      font-size: 22px;
+      height: 20px;
+      font-style: italic;
+    }
+  }
+  .rightLegend{
+    .actualMumbai{
+      font-weight: bold;
+      color: #15bccb;
+      height: 20px;
+    }
+    .actualKochi{
+      font-weight: bold;
+      color: #cd95ec;
+      height: 20px;
+    }
+    .target{
+      color: #a1adbb;
+      font-size: 22px;
+      height: 20px;
+      font-style: italic;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.newsContainer {
+  height: 856px;
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .newsHeader {
+    height: 111px;
+    background-color: black;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+  }
+  .overflowScroll{
+    height: 745px;
+    overflow-y: scroll;
+  .newsBox{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    padding: 30px;
+    border-bottom: 1px solid #39465f;
+    .newsBoximg{
+      width: 20%;
+      height: 200px;
+      overflow: hidden;
+      .newswfull{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .newsBoxcontent{
+      width: 80%;
+      padding: 15px;
+      height: 200px;
+      overflow: hidden;
+      h4{
+        color: #fff;
+        font-size: 25px;
+        line-height: 35px;
+      }
+      p{
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+      }
+    }
+  }
+  }
+  .overflowScroll::-webkit-scrollbar{display: none;}
+}

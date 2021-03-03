@@ -1,0 +1,55 @@
+.marketContainer{
+  background-color: rgb(32, 44, 63);
+  width: 972px;
+  font-family: Titillium Web;
+
+  .marketHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .topContainer{
+    padding:24px 0px 24px 24px;
+    .shareContainer{
+      flex:1;
+      height: 192px;
+      background-color: rgb(39, 54, 78);
+      margin-right: 24px;
+    }
+    .detailShareContainer{
+      font-size: 29.1px;
+      color: #ffffff;
+    }
+  }
+  .bottomContainer{
+    .listItemRow{
+      height: 98px;
+      .listItemContainer{
+        background-color: rgb(39, 52, 73);
+        flex:1;
+        margin-right: 2px;
+      }
+      :last-child{
+        margin-right: 0px;
+      }
+      .kpiTitle {
+        flex: 1;
+        background-color: rgb(39, 52, 73);
+        color: #dee5ef;
+        font-size: 30px;
+        padding-left: 20px;
+      }
+
+      .Kpi {
+        // width: 333px;
+        margin-right: 2px;
+        background-color: rgb(39, 52, 73);
+
+      }
+    }
+  }
+}

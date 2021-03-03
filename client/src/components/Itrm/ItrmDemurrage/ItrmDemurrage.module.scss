@@ -1,0 +1,85 @@
+.itrmDemurrageContainer {
+  width: 1051px;
+  height: 406px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  font-family: Titillium Web;
+  color: white;
+
+  .headerContainer {
+    padding-left: 67px;
+    height: 114px;
+    padding-right: 36px;
+    // border-right: solid 0.2px #959595;
+
+    .headerLeft {
+      height: inherit;
+
+      .heading {
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        padding-top: 15px;
+      }
+
+      .labels {
+        color: #64779c;
+        font-size: 20px;
+        padding-bottom: 10px;
+
+        .lpKochiDot {
+          height: 18px;
+          width: 18px;
+          background-color: rgb(162, 65, 247);
+          border-radius: 15%;
+        }
+
+        .dpKochiDot {
+          height: 18px;
+          width: 18px;
+          background-color: rgb(241, 109, 204);
+          border-radius: 15%;
+        }
+
+        .lpMumbaiDot {
+          height: 18px;
+          width: 18px;
+          background-color:#0340bd;
+          border-radius: 15%;
+        }
+
+        .dpMumbaiDot {
+          height: 18px;
+          width: 18px;
+          background-color: #02d345;
+          border-radius: 15%;
+        }
+
+
+
+      }
+    }
+
+    .headerRight {
+      font-size: 24px;
+      color: #b76df1;
+      font-weight: 600;
+    }
+  }
+
+  .graphContainer {
+    border-top: solid 0.5px #959595;
+    border-bottom: solid 0.5px #959595;
+    border-right: solid 0.5px #959595;
+
+    height: 295px;
+    background-color: #141923;
+  }
+
+  .mumbaiColor {
+    color: #06bee1;
+  }
+
+  .kochiColor {
+    color: #b76df1;
+  }
+}

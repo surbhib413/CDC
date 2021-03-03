@@ -1,0 +1,117 @@
+.BuDepotInventoryContiner {
+    width: 1041px;
+    margin-bottom: 18px;
+    background-color: rgb(32, 44, 63);
+    color: white;
+    .headerContainer {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        font-size: 35px;
+        font-weight: bold;
+
+        .headerRight {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .headerLabelsTarget {
+            color: white;
+            font-size: 24px;
+        }
+
+        .headerLabels {
+            color: #64779c;
+            font-size: 20px;
+
+            .dot1 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #00a8ec, #00e0bc);
+                border-radius: 50%;
+            }
+
+            .dot2 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff588c 0%, #fac159 137%);
+                border-radius: 50%;
+            }
+
+            .dot3 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(33deg, #ffbf45 25%, #ffd179 97%);
+                border-radius: 50%;
+            }
+
+            .dot4 {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff7bda 11%, #f35bc8 40%, #e640b7);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .BuCcsHeader {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        padding-right: 45px;
+
+        .BuCcsHeaderLeft {
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .BuCcsHeaderRight {
+            font-size: 24px;
+            height: 100%;
+            // padding-top: 14px;
+            // padding-bottom: 14px;
+
+            .BuCcsHeaderResolved {
+                color: white;
+            }
+
+            .BuCcsHeaderReceived {
+                color: rgba(250, 250, 250, 0.5);
+            }
+        }
+    }
+
+    .graphContainer {
+        height: 460px;
+
+        // background-color: #141923;
+        .legendsContainer {
+            margin-left: 50px;
+            // margin-right: 130px;
+            font-size: 20px;
+            color: #64779c;
+
+            .legendsHeader {
+                color: #fafafa;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .expandIconContainer {
+        .expandIcon {
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+}
+
+.graph {
+    position: relative;
+    // width: 422px;
+    // height: 560px;
+    margin-left: 45px;
+    margin-top: 25px;
+}

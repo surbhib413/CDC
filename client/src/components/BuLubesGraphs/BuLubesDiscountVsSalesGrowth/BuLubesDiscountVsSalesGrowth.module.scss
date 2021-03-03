@@ -1,0 +1,59 @@
+// .BuDepotInventoryContiner {
+//   width: 1041px;
+//   margin-right: 10px;
+//   margin-bottom: 18px;
+//   border: solid 0.5px rgb(149, 149, 149);
+//   background-color: rgb(32, 44, 63);
+
+// }
+.BuDepotInventoryContiner {
+  width: 1041px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+
+  .BuCcsHeader {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .BuCcsHeaderLeft {
+      color: white;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .BuCcsHeaderRight {
+      font-size: 24px;
+      height: 100%;
+      // padding-top: 14px;
+      // padding-bottom: 14px;
+
+      .BuCcsHeaderResolved {
+        color: white;
+      }
+
+      .BuCcsHeaderReceived {
+        color: rgba(250, 250, 250, 0.5);
+      }
+    }
+  }
+
+  .graphContainer {
+
+    height: 450px;
+
+    // background-color: #141923;
+
+  }
+
+  .expandIconContainer {
+    .expandIcon {
+      // position: relative;
+      // bottom: 10px;
+      // right: 10px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.refinaryLandingContainer{
+  width: 3219px;
+  // height: 2160px;
+  background-color: #081c35;
+  font-family: Titillium Web;
+  .refinaryHeading{
+    height: 114px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+  }
+}
+.mumbaiKochiButton{
+  
+  // top: 705px;
+  right: -1289px;
+  cursor: pointer;
+  font-family: Titillium Web;
+  position: relative;
+  height: 65px;
+  width: 346px;
+  // background-color: #283040;
+  border-radius: 4px;
+  border: solid 1.5px #97a4ba;
+  font-size: 32px;
+  
+  .mumbaiLeftEnabled {
+    flex: 1;
+    height: 100%;
+    font-weight: bold;
+    background-color: #141923;
+    color: #06bee1;
+    border-right: 1px solid #67758d;
+  }
+  .mumbaiLeftDisabled{
+    height: 100%;
+    flex: 1;
+    // height: 64px;
+    background-color: #283040;
+    font-weight: bold;
+    color: #4e5564;
+    border-right: 1px solid #67758d;
+  }
+  
+
+  .kochiRightEnabled {
+    height: 100%;
+    flex: 1;
+    // height: 64px;
+    font-weight: bold;
+    background-color: #141923;
+    border-left: 1px solid #67758d;
+    color: #b76df1
+  }
+  .kochiRightDisabled{
+    height: 100%;
+    flex: 1;
+    font-weight: bold;
+    // height: 64px;
+    background-color: #283040;
+    border-left: 1px solid #67758d;
+    color: #4e5564;
+  }
+}

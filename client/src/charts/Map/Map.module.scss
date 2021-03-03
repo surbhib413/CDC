@@ -1,0 +1,437 @@
+.mapStyle {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  // transform: scaleX(1.5);
+  border: 1px solid #cccccc;
+}
+
+.googlechart-enter {
+  opacity: 0;
+}
+.googlechart-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms;
+}
+.googlechart-exit {
+  opacity: 1;
+}
+.googlechart-exit-active {
+  opacity: 0;
+  transition: opacity 3000ms;
+}
+
+.northamerica {
+  top: 450px;
+  left: 200px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+.latinamerica {
+  top: 690px;
+  left: 400px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+.mediterranean {
+  top: 369px;
+  left: 700px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+.westafrica {
+  top: 709px;
+  left: 800px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+.middleeast {
+  top: 659px;
+  left: 1000px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+.southerneastasia {
+  top: 509px;
+  left: 1350px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.australiaandnewzealand {
+  top: 709px;
+  left: 1450px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.crudeProcurementHeading {
+  width: 431px;
+  height: 58px;
+  left: 90px;
+  top: 31px;
+  position: absolute;
+  font-size: 38px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.chartDataFont {
+  font-size: 40px;
+}
+.selectbox {
+  position: absolute;
+  right: 80px;
+  top: 38px;
+}
+.selectboxPalette {
+  width: 210px;
+  height: 44px;
+  border: solid 0.5px #fafafa;
+  background-color: #141923;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.mapTable {
+  .table {
+    color: white;
+    position: absolute;
+    top: 920px;
+    right: 0px;
+    width: 888px;
+    margin: 0px 160px 0px 0px;
+    padding: 0px;
+  }
+
+  table thead tr td {
+    display: table-cell;
+    width: 400px;
+    height: 60px;
+    // padding-top: 5px;
+    text-align: center;
+    align-items: center;
+    font-family: Titillium Web;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #424b5f;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  table tbody tr td {
+    display: table-cell;
+    width: 400px;
+    height: 50px;
+    //padding-top: 5px;
+    text-align: center;
+    align-items: center;
+    font-family: Titillium Web;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 53, 72);
+    opacity: 0.7;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  table tbody tr {
+    background-color: rgb(42, 53, 72);
+    // height: 58px;
+    // width: 151px;
+    text-align: center;
+    border-bottom: solid;
+    border-color: transparent;
+    border-width: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  table tbody tr td tr {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  table thead tr td tr td {
+    width: 133px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  table tbody tr td tr td {
+    width: 69px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .middleTd {
+    width: 85px;
+    height: 50px;
+  }
+
+  .col {
+    border-right: 0.1px solid grey;
+  }
+  // table tbody tr td:nth-child(1) {
+  //   font-size: 20px;
+  // }
+}
+
+.legendBox {
+  position: absolute;
+  width: 200px;
+  top: 1000px;
+  left: 200px;
+  height: 150px;
+}
+
+// .progressbarDataForTerm {
+//   position: absolute;
+//   flex-shrink: 0;
+// }
+// .progressbarTermAreaText,
+// .progressbarSpotAreaText,
+// .progressbarIndigenousAreaText {
+//   width: 62px;
+//   height: 43px;
+//   object-fit: contain;
+//   font-size: 28px;
+//   font-weight: normal;
+//   font-stretch: normal;
+//   font-style: normal;
+//   line-height: normal;
+//   letter-spacing: normal;
+//   color: #ffffff;
+//   float: right;
+//   top: 0;
+//   position: absolute;
+// }
+.progressbarTerm {
+  background-color: #4c5e51;
+  border-radius: 2px;
+  width: 180px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.progressbarTerm .progressbarData {
+  background-color: #0fd19b;
+  height: 20px;
+  border-radius: 1px;
+  width: 50%;
+}
+.progressbarSpot {
+  background-color: #4c5e51;
+  border-radius: 2px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.progressbarSpot .progressbarData {
+  background-color: #fb61e2;
+  width: 50%;
+  height: 20px;
+  border-radius: 1px;
+}
+
+.progressbarIndigenous {
+  background-color: #4c5e51;
+  border-radius: 2px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.progressbarIndigenous .progressbarData {
+  background-color: #9013fe;
+  width: 50%;
+  height: 20px;
+  border-radius: 1px;
+}
+.countryChartTable {
+  position: absolute;
+  top: 890px;
+  right: 0px;
+  width: 888px;
+  margin: 0px 160px 0px 0px;
+  padding: 0px;
+}
+
+.countryChartHeading {
+  width: 431px;
+  height: 58px;
+  left: 90px;
+  top: 31px;
+  position: absolute;
+  font-size: 38px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  z-index: 2;
+}
+.backBtn {
+  width: 45px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.refinery {
+  top: 680px;
+  left: 1100px;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 30px;
+  transform: scale(0.8);
+}
+.refineryLocale {
+  top: 630px;
+  left: 1080px;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 30px;
+  transform: scale(0.5);
+}
+
+.countryChartStyle {
+  transform: scale(0.85);
+  bottom: 110px;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.hsTerm {
+  font-size: 16px;
+  float: left;
+  font-style: italic;
+}
+.lsTerm {
+  font-size: 16px;
+  float: right;
+  font-style: italic;
+  left: 150px;
+  position: absolute;
+}
+.countryChartScale {
+  transform: scale(0.7);
+}
+
+.termTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  right: -50px;
+  position: absolute;
+  color: white;
+}
+.hsTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+}
+.lsTextProgressBar {
+  font-size: 17px;
+  float: right;
+  font-style: italic;
+  font-weight: bolder;
+  left: 150px;
+  position: absolute;
+  color: white;
+}
+.spotTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  right: -50px;
+  position: absolute;
+  color: white;
+}
+.spotLsTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+}
+.spotHsTextProgressBar {
+  font-size: 17px;
+  float: right;
+  font-style: italic;
+  font-weight: bolder;
+  left: 150px;
+  position: absolute;
+  color: white;
+}
+.indTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  right: -100px;
+  position: absolute;
+  color: white;
+}
+.indLsTextProgressBar {
+  font-size: 17px;
+  float: left;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+}
+
+.indHsTextProgressBar {
+  font-size: 17px;
+  float: right;
+  font-style: italic;
+  font-weight: bolder;
+  left: 150px;
+  position: absolute;
+  color: white;
+}
+.itrmWorldMapStyle {
+  transform: scale(0.8);
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}

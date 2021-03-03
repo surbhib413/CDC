@@ -1,0 +1,57 @@
+.infoWindowContainer {
+  padding: 0;
+  font-family: Titillium Web;
+  width: 287px;
+  height: 255px;
+  background-color: rgba(24, 30, 42, 0);
+  // background-color: rgb(24, 30, 42);
+  color: "white";
+  border: none;
+
+  .markerDot{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #b9c8e1;
+    margin-bottom: 5px;
+  }
+  .infoWindowTitle {
+    font-size: 28px;
+    color: #b9c8e1;
+  }
+
+  .titleLine {
+    border-color: #b9c8e1;
+    width: 40px;
+    height: 1px;
+    margin: 6px 0px 18px 0px;
+  }
+
+  .infoWindowContent {
+    color: #b9c8e1;
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+  .depotInfoWindow{
+    color: #b9c8e1;
+    font-size: 22px;
+    width: 178px;
+    // margin-bottom: 2px;
+  }
+  
+  .contentTableTitle {
+    border-bottom: #b9c8e1 1px dashed;
+    border-top: #b9c8e1 1px dashed;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+
+  }
+
+  .contentTitle {
+    margin-right: 10px;
+    color: #b9c8e1;
+    font-size: 22px;
+  }
+}

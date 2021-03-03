@@ -1,0 +1,166 @@
+.EmployeeDataAndRecruitmentContainer {
+  height: 643px;
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .EmployeeDataAndRecruitmentHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .ContentContainer {
+    height: 502px;
+    background-color: rgb(47, 61, 83);
+    margin: 24px;
+
+    .Content {
+      padding: 10px 0px;
+
+      .demographicsContainer {
+        .demographicsHeader {
+          font-size: 30px;
+          font-weight: 600;
+          color: white;
+          margin-bottom: 18px;
+          padding-left: 32px;
+        }
+
+        .demographicsTotals {
+          font-size: 22px;
+          color: white;
+          padding-left: 32px;
+          margin-top: 10px;
+
+          .demographicsTotalsValue {
+            font-weight: bold;
+          }
+        }
+
+        .genderBreakupContainer {
+          margin-top: 6px;
+          padding-left: 32px;
+
+          .maleContainer {
+            margin-right: 18px;
+
+            .maleIcon {
+              margin: 0px 8px 5px 5px;
+            }
+
+            .maleValue {
+              color: #00abff;
+              font-size: 22px;
+              font-weight: 600;
+            }
+          }
+
+          .femaleContainer {
+            .femaleIcon {
+              margin: 0px 8px 5px 5px;
+            }
+
+            .femaleValue {
+              color: #ff5d9b;
+              font-size: 22px;
+              font-weight: 600;
+            }
+          }
+        }
+
+        .graphLegendsContainer {
+          padding-left: 32px;
+          margin-top: 14px;
+          font-size: 22px;
+          color: #8fa9db;
+
+          .legendsHeader {
+            color: #fafafa;
+            font-size: 24px;
+          }
+
+          .dot1 {
+            height: 24px;
+            width: 24px;
+            background-color: #8affb2;
+            border-radius: 50%;
+          }
+
+          .dot2 {
+            height: 24px;
+            width: 24px;
+            background-color: #00ebff;
+            border-radius: 50%;
+          }
+
+          .dot3 {
+            height: 24px;
+            width: 24px;
+            background-color: #00abff;
+            border-radius: 50%;
+          }
+
+        }
+
+        .EmployeeDemographicGraphContainer {
+          position: relative;
+          height: 250px;
+        }
+      }
+      .mfsection{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        text-align: center;
+        h4{
+          color: #fff;
+        }
+        p{
+          color: #dde5f0;
+          font-size: 22px;
+          margin-bottom: 0;
+        }
+      }
+
+      .costCompositionContainer {
+        padding-right: 32px;
+
+        .costsHeader {
+          font-size: 30px;
+          font-weight: 600;
+          color: white;
+          margin-bottom: 18px;
+          padding-left: 32px;
+        }
+
+        .costsTotals {
+          font-size: 22px;
+          color: white;
+          padding-left: 32px;
+          margin-bottom: 36px;
+
+          .totalsValue {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .Footer {
+      height: 56px;
+      background-color: rgb(56, 76, 104);
+      padding: 0px 32px;
+
+      .footerText {
+        color: #c9dbfa;
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+  }
+}

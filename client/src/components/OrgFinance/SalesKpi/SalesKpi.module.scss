@@ -1,0 +1,84 @@
+.GrowthKpi1Container {
+    width: 499px;
+    margin-right: 24px;
+
+    .GrowthKpi1Header {
+        height: 98px;
+        margin-bottom: 2px;
+        background-color: rgb(39, 52, 73);
+
+        .kpiTitle {
+            color: #dee5ef;
+            font-size: 32px;
+            font-weight: bold;
+            padding-left: 21px;
+        }
+
+        .kpiOverallDetails {
+            padding-right: 18px;
+            padding-top: 10px;
+
+            .totalValues {
+                color: white;
+                font-size: 24px;
+            }
+
+            .deltaValuesContainer {
+                color: #97a4ba;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .GrowthKpi1ContentContainer {
+        background-color: rgb(47, 61, 83);
+        height: 390px;
+        .headerContainer {
+            // background-color: black;
+            float: right;
+           // height: 114px;
+            padding-left: 45px;
+            font-size: 35px;
+            font-weight: bold;
+
+            .headerRight {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .headerLabelsTarget {
+                color: white;
+                font-size: 24px;
+            }
+
+            .headerLabels {
+                color: #64779c;
+                font-size: 20px;
+
+                .HpclDot {
+                    height: 15px;
+                    width: 15px;
+                    background-color: #04caa6;
+                    border-radius: 50%;
+                }
+
+                .IoclDot {
+                    height: 15px;
+                    width: 15px;
+                    background-color: #6949ba;
+                    border-radius: 50%;
+                }
+
+                .ShellDot {
+                    height: 15px;
+                    width: 15px;
+                    background-color: #24a9d9;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .graphContainer {
+            height: 350px;
+        }
+    }
+}

@@ -1,0 +1,205 @@
+.BuContainer {
+  font-family: Titillium Web;
+  background-color: black;
+  padding: 0px 34px 34px 34px;
+  width: 5365px;
+  height: 2160px;
+
+  .BuHeading {
+    font-weight: 600;
+    height: 114px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+  }
+
+  .BuContent {
+    background-color: #35425c;
+    height: 2016px;
+    padding-top: 35px;
+
+    .BuSectionsContainer {
+      width: 466px;
+      margin-right: 30px;
+
+      // .tabStyle {
+      //   margin-top: -32px;
+      //   margin-left: -32px;
+      //   text-align: left;
+      // }
+      // .customTabs{
+      //   .customTablist{
+      //     margin: 0px;
+      //   }
+
+      // }
+
+      // .tabContent {
+      //   margin-top: -81px;
+      //   margin-left: -20px;
+      // }
+
+      .tabLabelsContainer {
+        height: 78px;
+        // margin-right: 25px;
+        background-color: rgb(36, 45, 62);
+        color: #97abd2;
+        font-size: 20px;
+
+        .poorDot {
+          width: 17.1px;
+          height: 17px;
+          border-radius: 2px;
+          background-color: rgb(255, 91, 79);
+        }
+
+        .fairDot {
+          width: 17.1px;
+          height: 17px;
+          object-fit: contain;
+          border-radius: 2px;
+          background-color: rgb(255, 141, 56);
+        }
+
+        .goodDot {
+          width: 17.1px;
+          height: 17px;
+          object-fit: contain;
+          border-radius: 2px;
+          background-color: rgb(255, 236, 109);
+        }
+
+        .excellentDot {
+          width: 17.1px;
+          height: 17px;
+          object-fit: contain;
+          border-radius: 2px;
+          background-color: rgb(125, 242, 137);
+        }
+      }
+
+      .tabOverallActive {
+        border: 2px solid #54e2d9;
+        color: white;
+      }
+      button::after {
+        display: none;
+      }
+
+      .tabOverall {
+        text-align: inherit;
+        width: inherit;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 20px;
+        padding: 0px;
+        // .activeTab {
+        //   color: white;
+        // }
+
+        .overallHeader {
+          height: 50px;
+          background-color: #1d2431;
+          font-size: 28px;
+          font-weight: bold;
+          padding-left: 50px;
+        }
+        .overallHeaderActive{
+          background-color: #54e2d9;
+          color: #222a3a;
+        }
+
+        .overallContent {
+          height: 250px;
+          background-color: #2a3548;
+          padding: 14px 12px 12px 50px;
+          font-size: 22px;
+          
+
+          .tabKpi {
+            height: 22px;
+          }
+
+          .barAndValue {
+            height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .progressBarGreen {
+            background: #35425c;
+            width: 250px;
+            height: 5px;
+          }
+
+          .progressBarGreen > span {
+            background: rgb(125, 242, 137);
+            height: 100%;
+            display: block;
+          }
+
+          .progressBarYellow {
+            background: #35425c;
+            width: 250px;
+            height: 5px;
+          }
+
+          .progressBarYellow > span {
+            background: rgb(255, 236, 109);
+            height: 100%;
+            display: block;
+          }
+
+          .progressBarOrange {
+            background: #35425c;
+            width: 250px;
+            height: 5px;
+          }
+
+          .progressBarOrange > span {
+            background: rgb(255, 141, 56);
+            height: 100%;
+            display: block;
+          }
+
+          .progressBarRed {
+            background: #35425c;
+            width: 250px;
+            height: 5px;
+          }
+
+          .progressBarRed > span {
+            background: rgb(255, 91, 79);
+            height: 100%;
+            display: block;
+          }
+
+          // progress[value] {
+          //   -webkit-appearance: none;
+          //   appearance: none;
+          //   width: 250px;
+          //   height: 5px;
+          // }
+
+          // progress[value]::-webkit-progress-bar {
+          //   background-color: #35425c;
+          //   border-radius: 2px;
+          //   // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+          // }
+
+          // progress[value]::-webkit-progress-value {
+          //   background: red;
+          //   border-radius: 2px;
+          //   background-size: 35px 20px, 100% 100%, 100% 100%;
+          // }
+        }
+        .overallContentActive{
+          background-color: #1d2431;
+          color: white;
+        }
+        // .rwt__tab{
+        //   padding: 0px;
+        // }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,104 @@
+.itrmCracksTableContainer {
+  width: 1051px;
+  height: 828px;
+  color: #ffffff;
+
+  .curvesHeader {
+    border: solid 0.5px rgb(149, 149, 149);
+    background-color: #424b5f;
+    // border-bottom: solid 0.5px rgb(149, 149, 149);
+    // border-right: solid 0.5px rgb(149, 149, 149);
+    padding: 30px 0px 10px 80px;
+    font-family: Titillium Web;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+  }
+
+  .curvesTableContainer {
+    background-color: #283040;
+    height: 700px;
+    border-right: solid 0.05px rgb(149, 149, 149);
+    border-bottom: solid 0.05px rgb(149, 149, 149);
+    border-left: solid 0.05px rgb(149, 149, 149);
+    padding: 50px 80px 80px 80px;
+
+    .header {
+      font-family: Titillium Web;
+      font-size: 28px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+    }
+
+    .Table {
+      display: table;
+      border-collapse: collapse;
+    }
+    .Title {
+      display: table-caption;
+      text-align: center;
+      font-weight: bold;
+      font-size: larger;
+    }
+    .Heading {
+      display: table-row;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgb(50, 58, 77);
+    }
+    .Row {
+      display: table-row;
+      border-bottom: solid;
+      border-color: transparent;
+      border-width: 0.1px;
+    }
+
+    .divStyle {
+      display: flex;
+    }
+
+    .leftDiv {
+      float: left;
+      padding: 0px 0px 0px 20px;
+    }
+
+    .rightDiv {
+      float: right;
+      padding: 0px 20px 0px 0px;
+      color: #74ce12;
+    }
+
+    .col {
+      border-right: 0.1px solid grey;
+      opacity: 0.7;
+    }
+
+    .Cell {
+      display: table-cell;
+      width: 400px;
+      height: 50px;
+      padding-top: 10px;
+      text-align: center;
+      align-items: center;
+      font-family: Titillium Web;
+      font-size: 22px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: rgb(42, 53, 72);
+      opacity: 0.7;
+    }
+  }
+}

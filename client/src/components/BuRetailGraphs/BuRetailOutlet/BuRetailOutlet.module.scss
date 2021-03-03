@@ -1,0 +1,158 @@
+.BuTransportationContainer {
+  width: 1041px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+  color: white;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+
+    .heading {
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .headerLabels {
+      color: #64779c;
+      font-size: 20px;
+
+      .actualDot1 {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(255, 88, 140) 0%, rgb(250, 193, 89));
+        // border-radius: 15%;
+      }
+
+      .actualDot2 {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        // border-radius: 15%;
+      }
+
+      .targetDot1 {
+        height: 18px;
+        width: 18px;
+        opacity: 0.5;
+        background-image: linear-gradient(to bottom, rgb(255, 88, 140) 0%, rgb(250, 193, 89));
+        // border-radius: 15%;
+      }
+
+      .targetDot2 {
+        height: 18px;
+        width: 18px;
+        opacity: 0.5;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        // border-radius: 15%;
+      }
+    }
+
+    .headerRight {
+      color: white;
+      font-size: 24px;
+    }
+  }
+
+  .tableAndGraphContainer {
+    padding-top: 45px;
+    padding-left: 45px;
+  }
+
+  .graphContainer {
+    position: relative;
+    width: 880px;
+    height: 415px;
+
+    .graphHeaderContainer {
+      font-family: Titillium Web;
+      widows: 100%;
+      height: 124px;
+      opacity: 0.7;
+      background-color: rgb(42, 53, 72);
+
+      .graphHeaderSection {
+        flex: 1;
+        padding-left: 40px;
+        font-size: 25px;
+        color: white;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+        .graphHeaderSectionTop {}
+
+        .graphHeaderSectionBottom {
+          opacity: 0.5;
+        }
+      }
+
+      :last-child {
+        border-right: none;
+      }
+    }
+    .graphAndValueContainer{
+      height:280px;
+      padding-top: 20px;
+      .valueContainer{
+        font-size: 24px;
+        height:100%;
+        margin-top: 8px;
+        // padding-top:30px;
+        padding-left: 600px;
+      }
+    }
+  }
+
+  .MsHsdContainer {
+    position: relative;
+    top: -15px;
+    right: -50px;
+
+    .MsCircle {
+      height: 48px;
+      width: 45px;
+      background-color: #202c3f;
+      border: solid 1px white;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 9px;
+      top: -11px;
+      position: relative;
+
+      .Ms {
+        font-size: 20px;
+        color: white;
+      }
+    }
+
+    .HsdCircle {
+      height: 48px;
+      width: 45px;
+      background-color: #202c3f;
+      border: solid 1px white;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 9px;
+
+      .Hsd {
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+
+}
+
+.expandIconContainer {
+  .expandIcon {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+  }
+}

@@ -1,0 +1,87 @@
+.BuTransportationContainer {
+  width: 1041px;
+  margin-right: 10px;
+  // margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .headerLeft {
+      color: white;
+      .heading {
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .headerLabels {
+        color: #64779c;
+        font-size: 20px;
+        .actualDot {
+          height: 18px;
+          width: 18px;
+          background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+          border-radius: 15%;
+        }
+
+        .targetDot {
+          height: 18px;
+          width: 18px;
+          background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+          opacity: 0.3;
+          border-radius: 15%;
+        }
+      }
+    }
+
+    .headerRight {
+      color: white;
+      font-size: 24px;
+    }
+  }
+
+  .graphContainer {
+    .MsHsdContainer {
+      position: relative;
+      top: 35px;
+      right: -150px;
+
+      .MsCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+        top: -11px;
+        position: relative;
+
+        .Ms {
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      .HsdCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+
+        .Hsd {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}

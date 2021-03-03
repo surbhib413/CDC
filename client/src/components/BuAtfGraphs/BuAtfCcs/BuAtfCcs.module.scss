@@ -1,0 +1,124 @@
+.BuMarketShareContainer {
+    width: 1040px;
+    margin-right: 10px;
+    margin-bottom: 18px;
+    // border: solid 0.5px rgb(149, 149, 149);
+    background-color: rgb(32, 44, 63);
+    font-family: Titillium Web;
+    color: white;
+
+    .headerContainer {
+        background-color: black;
+        height: 114px;
+        padding-left: 45px;
+        font-size: 35px;
+        font-weight: bold;
+
+        .headerRight {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .headerLabelsTarget {
+            color: white;
+            font-size: 24px;
+        }
+
+        .headerLabels {
+            color: #64779c;
+            font-size: 20px;
+
+            .BpclDot {
+                height: 24px;
+                width: 24px;
+                border-radius: 50%;
+                background-image: linear-gradient(to bottom, #00a8ec, #00e0bc);
+            }
+
+            .HpclDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff588c 0%, #fac159 137%);
+                border-radius: 50%;
+            }
+
+            .IoclDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(33deg, #ffbf45 25%, #ffd179 97%);
+                border-radius: 50%;
+            }
+
+            .ShellDot {
+                height: 24px;
+                width: 24px;
+                background-image: linear-gradient(to bottom, #ff7bda 11%, #f35bc8 40%, #e640b7);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .graphContainer {
+        //position: relative;
+        //width: 900px;
+        height: 450px;
+
+        .pieChartTitle {
+            color: fafafa;
+            font-size: 24px;
+        }
+        .contentRow1 {
+            font-family: Titillium Web;
+            // widows: 100%;
+            height: 384px;
+            // opacity: 0.7;
+            background-color: rgb(42, 53, 72);
+            // margin-right: 90px;
+            // margin-bottom: 25px;
+            // margin-left: 45px;
+
+            .graphHeaderSection {
+                flex: 1;
+                padding: 0px 25px;
+                font-size: 25px;
+                color: white;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+                .graphHeaderSectionTop {
+                    font-size: 25px;
+
+                    .topLeft {
+                        color: white;
+                    }
+
+                    .topRight {
+                        margin-left: 20px;
+                    }
+                }
+
+                .graphHeaderSectionBottom {
+                    opacity: 0.5;
+                    margin-top: 5px;
+                }
+            }
+
+            :last-child {
+                border-bottom: none;
+            }
+        }
+
+        .graphFilters {
+            margin-left: 20px;
+            font-size: 20px;
+            color: #7c92bd;
+        }
+    }
+
+    .expandIconContainer {
+        .expandIcon {
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+}

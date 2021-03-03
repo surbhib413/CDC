@@ -1,0 +1,32 @@
+.Niftysection{
+    width: 100%;
+    height: 100%;
+    .NiftyGraphSection{
+        width: 100%;
+        height: 60%;
+        .NiftyGraph {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .NiftyContent{
+        width: 100%;
+        height: 40%;
+        padding: 15px;
+        .NiftyContenthead{
+            color: #8fa9db;
+            margin-bottom: 0;
+            .NiftyContentheadspan{
+                color: #e13219;
+            }
+        }
+        .NiftyContentp{
+            color: #fff;
+            font-size: 20px;
+            .NiftyContentpspan{
+                color: #e13219;
+                margin-left: 15px;
+            }
+        }
+    }
+}

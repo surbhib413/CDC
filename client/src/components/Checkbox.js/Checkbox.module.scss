@@ -1,0 +1,12 @@
+.checkbox {
+  // display: flex;
+  // align-items: center;
+  // margin-right: 10px;
+  .label {
+    margin-left: 10px;
+  }
+}
+.checkbox > input[type="checkbox"] {
+  display: none;
+}
+

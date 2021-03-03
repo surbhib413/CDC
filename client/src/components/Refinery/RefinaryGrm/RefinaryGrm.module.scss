@@ -1,0 +1,41 @@
+.GrmContainer {
+  border: 0.5px #a7a7a7 solid;
+  border-bottom: none;
+  font-family: Titillium Web;
+  width: 644px;
+  height: 653px;
+  background-color: #141923;
+  color: #dee5ef;
+  position: relative;
+
+  .graphTitle {
+    height: 88px;
+    font-size: 35px;
+    border: 0.5px #a7a7a7 solid;
+    background-color: black;
+    font-weight: bold;
+    padding-left: 36px;
+  }
+
+
+  .grmFooter {
+    border: 0.5px #a7a7a7 solid;
+    height: 64px;
+    background-color: #283040;
+
+    .footerLeft {
+      cursor: pointer;
+      margin-left: 36px;
+      color: #ffffff;
+      font-size: 22px;
+      text-decoration: underline;
+    }
+
+    .footerRight {
+      margin-right: 36px;
+      font-size: 22px;
+      font-style: italic;
+    }
+  }
+
+}

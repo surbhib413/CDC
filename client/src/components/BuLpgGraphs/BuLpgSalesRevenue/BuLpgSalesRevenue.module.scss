@@ -1,0 +1,134 @@
+.salesRevenueContiner {
+  width: 1041px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: #050f1e;
+  color: white;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: bold;
+
+    .headerRight {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .headerLabelsTarget {
+      color: white;
+      font-size: 24px;
+    }
+
+    .headerLabels {
+      color: #64779c;
+      font-size: 20px;
+
+      .actualDot {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        border-radius: 15%;
+      }
+
+      .targetDot {
+        height: 18px;
+        width: 18px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        opacity: 0.3;
+        border-radius: 15%;
+      }
+    }
+  }
+
+  .headerRight {
+    color: white;
+    font-size: 24px;
+  }
+
+  .MsHsdContainer {
+    position: relative;
+    bottom: 395px;
+    left: 945px;
+
+    .MsCircle {
+      height: 48px;
+      width: 45px;
+      background-color: #202c3f;
+      border: solid 1px white;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 9px;
+      top: -11px;
+      position: relative;
+
+      .Ms {
+        font-size: 20px;
+        color: white;
+      }
+    }
+
+    .HsdCircle {
+      height: 48px;
+      width: 45px;
+      background-color: #202c3f;
+      border: solid 1px white;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 9px;
+
+      .Hsd {
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+  .expandIconContainer {
+    .expandIcon {
+      position: relative;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+}
+
+.kochiActual {
+  height: 24px;
+  width: 24px;
+  background-color: #a241f7;
+  border-radius: 15%;
+}
+
+.kochiTarget {
+  height: 24px;
+  width: 24px;
+  background-color: #0340bd;
+  border-radius: 15%;
+}
+
+.salesRevenueGraph {
+  position: relative;
+  width: 900px;
+  height: 410px;
+  margin: 40px 0px 0px 35px;
+
+  .leftDiv {
+    //border: solid 0.1px grey;
+    color: white;
+  }
+
+  .centerDiv {
+    // border: solid 0.1px grey;
+    .layoutDiv {
+      height: 31px;
+      // border-top: solid 0.1px grey;
+      border-bottom: solid 0.1px grey;
+    }
+  }
+
+  .rightDiv {
+    // border: solid 0.1px grey;
+  }
+}

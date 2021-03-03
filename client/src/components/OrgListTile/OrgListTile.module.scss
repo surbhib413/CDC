@@ -1,0 +1,20 @@
+.CollapsedListItemContainer {
+  height: 76px;
+  margin-bottom: 2px;
+  background-color: rgb(35, 43, 56);
+  font-size: 30px;
+  padding:20px;
+
+  .kpiTitle{
+    color: #dee5ef;
+    width: 45%;
+  }
+  .kpiValue{
+    color: #dee5ef;
+    font-weight: bold;
+    width: 30%;
+  }
+  .deltaComponent{
+    width: 25%;
+  }
+}

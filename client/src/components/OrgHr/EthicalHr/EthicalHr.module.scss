@@ -1,0 +1,52 @@
+.LearningDevelopmentContainer {
+  height: 451px;
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .LearningDevelopmentHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .LearningDevelopmentContentContainer {
+    height: 295px;
+    margin: 24px;
+    padding-right: 28px;
+    background-color: rgb(47, 61, 83);
+    .graphContainer {
+      position: relative;
+      height: 265px;
+    }
+
+    .legendsContainer {
+      color: #8fa9db;
+      font-size: 22px;
+
+      .dot1 {
+        height: 24px;
+        width: 24px;
+        background-color: #8affb2;
+        border-radius: 50%;
+      }
+    }
+
+    .rightContainer {
+      .section {
+        padding:20px;
+        width: 347px;
+        height: 98px;
+        background-color: rgb(39, 52, 73);
+        color: white;
+        font-size: 24px;
+        .sectionValue{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

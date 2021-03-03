@@ -1,0 +1,211 @@
+.BuOperatingCostContiner {
+  width: 1041px;
+  // margin-right: 10px;
+  // margin-bottom: 18px;
+  height: 618px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .headerLeft {
+      color: white;
+
+      .heading {
+        font-size: 35px;
+        font-weight: bold;
+      }
+
+      .headerLabels {
+        color: #64779c;
+        font-size: 20px;
+
+        .actualDot {
+          height: 18px;
+          width: 18px;
+          background-color: rgb(162, 65, 247);
+          border-radius: 15%;
+        }
+
+        .targetDot {
+          height: 18px;
+          width: 18px;
+          background-color: rgb(162, 65, 247);
+          border-radius: 15%;
+        }
+      }
+    }
+
+    .headerRight {
+      color: white;
+      font-size: 24px;
+    }
+  }
+
+  .graphContainer {
+    padding: 50px 40px 0px 65px;
+    height: 500px;
+
+    .header {
+      font-size: 28px;
+      color: rgb(255, 255, 255);
+    }
+
+    .BuRetailMapTableContainer {
+      // position: relative;
+      // width: 1191px;
+      // height: 400px;
+      // bottom: 0px;
+      // font-family: Titillium Web;
+
+      .tableHeaderRowContainer {
+        .tableHeaderRow {
+          height: 65px;
+          // padding: 30px 20px;
+          font-size: 25px;
+          color: #54e2d9;
+          display: flex;
+          align-items: center;
+          // border-radius: 7px;
+          background-color: #1c232f;
+          border-top-left-radius: 7px;
+          border-top-right-radius: 7px;
+
+          .headerCell {
+            display: flex;
+            flex: 1 1;
+            align-items: center;
+            justify-content: center;
+            height: inherit;
+            text-align: center;
+            border-right: solid 2px rgba(149, 149, 149, 0.5);
+          }
+
+          :last-child {
+            border-right: none;
+          }
+        }
+      }
+
+      .tableDataRowContainer {
+        background-color: #2a3548;
+        .tableDataRow {
+          display: flex;
+          align-items: center;
+          height: 65px;
+          color: white;
+          font-size: 22px;
+
+          .dataCell {
+            display: flex;
+            flex: 1 1;
+            align-items: center;
+            justify-content: center;
+            height: inherit;
+            text-align: center;
+            border-right: solid 2px rgba(149, 149, 149, 0.5);
+            border-bottom: solid 1px rgb(32, 44, 63);
+          }
+
+          :last-child {
+            border-right: none;
+          }
+
+        }
+      }
+
+    }
+
+    // .Table {
+    //     display: table;
+    //     border-collapse: collapse;
+    //     border-radius: 1em;
+    // }
+    // .Title {
+    //     display: table-caption;
+    //     text-align: center;
+    //     font-weight: bold;
+    //     font-size: larger;
+    //     //border: none;
+    // }
+    // .Heading {
+    //     display: table-row;
+    //     font-weight: bold;
+    //     text-align: center;
+    //     //border: none;
+    // }
+    // .Row {
+    //     display: table-row;
+    //     border-bottom: solid;
+    //     border-color: transparent;
+    //     border-width: 0.1px;
+    // }
+
+    // .col {
+    //     border-right: 0.1px solid grey;
+    //     opacity: 0.7;
+    // }
+    // .Cell {
+    //     display: table-cell;
+    //     width: 400px;
+    //     height: 50px;
+    //     padding-top: 10px;
+    //     text-align: center;
+    //     align-items: center;
+    //     font-family: Titillium Web;
+    //     font-size: 25px;
+    //     font-weight: 600;
+    //     font-stretch: normal;
+    //     font-style: normal;
+    //     line-height: normal;
+    //     letter-spacing: normal;
+    //     text-align: center;
+    //     color: rgb(255, 255, 255);
+    //     background-color: rgb(42, 53, 72);
+    //     opacity: 0.7;
+    // }
+
+    .MsHsdContainer {
+      position: relative;
+      top: -35px;
+      right: -80px;
+
+      .MsCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+        top: -11px;
+        position: relative;
+
+        .Ms {
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      .HsdCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+
+        .Hsd {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}

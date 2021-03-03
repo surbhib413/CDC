@@ -1,0 +1,59 @@
+.kpis_container {
+  .kpis_header {
+    height: 80px;
+    background-color: #090a0c;
+    text-align: left;
+    font-size: 32px;
+    color: #dee5ef
+  }
+
+  .kpis_list_container {
+    .card_container {
+      border-radius: 0;
+      border: none;
+
+      .collapse_chart {
+        border-top: 1px solid #424b5f;
+      }
+
+      .kpis_list_item {
+        padding: 0;
+        height: 140px;
+        background-color: #283040;
+        color: #b8b8b8;
+
+        .kpi_item_progress_circle {
+          width: 134px;
+        }
+
+        .kpi_item_title {
+          font-size: 32px;
+          color: #dee5ef;
+
+          .kpi_item_score {
+            color: #dee5ef;
+            font-size: 32px;
+          }
+
+          .kpi_value {
+            font-size: 22px;
+            color: #f58732;
+          }
+        }
+
+      }
+    }
+  }
+
+  .kpis_footer {
+    height: 50px;
+    background-color: #141923;
+    color: #b8b8b8;
+    font-size: 22px;
+
+    .kpis_footer_left {}
+
+    .kpis_footer_right {}
+  }
+
+}

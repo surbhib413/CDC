@@ -1,0 +1,69 @@
+.BalanceSheetsContainer {
+  height: 720px;
+  background-color: rgb(32, 44, 63);
+  margin-top: 24px;
+  font-family: Titillium Web;
+
+  .BalanceSheetsHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .BalanceSheetsGraphContainer {
+    height: 434px;
+    margin: 24px;
+    background-color: rgb(47, 61, 83);
+    .headerContainer {
+      color: white;
+      height: 114px;
+      padding-left: 45px;
+
+      .headerRight {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .headerLabelsTarget {
+        color: white;
+        font-size: 24px;
+      }
+
+      .headerLabels {
+        color: #64779c;
+        font-size: 20px;
+
+        .HpclDot {
+          height: 24px;
+          width: 24px;
+          background-color: #ff526d;
+          border-radius: 50%;
+        }
+
+        .IoclDot {
+          height: 24px;
+          width: 24px;
+          background-color: #00e7ff;
+          border-radius: 50%;
+        }
+
+        .ShellDot {
+          height: 24px;
+          width: 24px;
+          background-color: #ffbf45;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+.grmGraph {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+}

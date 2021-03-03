@@ -1,0 +1,26 @@
+.treasureyContainer {
+  width: 1050px;
+  margin-right: 26px;
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+
+  .treasureyHeader {
+    height: 84px;
+    background-color: rgb(24, 30, 42);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .foreignCurrencyLoanGraphContainer{
+    height: 375px;
+    background-color: rgb(47, 61, 83);
+    margin:24px;
+  }
+  .internationalBondGraphContainer{
+    height: 375px;
+    background-color: rgb(47, 61, 83);
+    margin: 0px 24px 48px 24px;
+  }
+}

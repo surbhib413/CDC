@@ -1,0 +1,83 @@
+{
+  "info": {
+    "title": "BPCL Dashboard API",
+    "description": "BPCL Dashboard API Information",
+    "contact": {
+      "name": ""
+    },
+    "servers": ["http://localhost:5000"]
+  },
+  "tags": [
+    {
+      "name": "Planning KPI",
+      "description": "Information about Planning KPI"
+    },
+    {
+      "name": "Refinery KPI",
+      "description": "Information about Refinery KPI"
+    },
+    {
+      "name": "ITRM KPI"
+    }
+  ],
+  "definitions": {
+    "Planning KPI": {
+      "type": "object",
+      "properties": {
+        "kpi_name": {
+          "type": "string"
+        },
+        "total_marks": {
+          "type": "integer"
+        },
+        "raw_score": {
+          "type": "integer"
+        },
+        "score": {
+          "type": "integer"
+        },
+        "rating": {
+          "type": "string"
+        },
+        "target": {
+          "type": "integer"
+        },
+        "actual": {
+          "type": "integer"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "month": {
+          "type": "integer"
+        },
+        "year": {
+          "type": "integer"
+        }
+      }
+    },
+    "Refinery KPI": {
+      "type": "object",
+      "properties": {
+        "kpi_name": {
+          "type": "string"
+        },
+        "refinery": {
+          "type": "string"
+        },
+        "actual": {
+          "type": "integer"
+        },
+        "target": {
+          "type": "integer"
+        },
+        "entry_date": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+.BuOperatingCostContiner {
+  width: 1041px;
+  // margin-right: 10px;
+  margin-bottom: 18px;
+  // border: solid 0.5px rgb(149, 149, 149);
+  background-color: rgb(32, 44, 63);
+  font-family: Titillium Web;
+  color: white;
+
+  .headerContainer {
+    background-color: black;
+    height: 114px;
+    padding-left: 45px;
+    font-size: 35px;
+    font-weight: bold;
+
+    .headerRight {
+      font-size: 24px;
+      font-weight: bold;
+      padding: 0px 45px 0px 79px;
+      // padding-left: 55px;
+    }
+
+    .headerLabelsTarget {
+      color: white;
+      font-size: 24px;
+      padding: 0px 45px 0px 0px;
+      // padding-left: 55px;
+    }
+
+    .headerLabels {
+      color: #64779c;
+      font-size: 20px;
+
+      .actualDot {
+        height: 24px;
+        width: 24px;
+        background-color: rgb(162, 65, 247);
+        border-radius: 15%;
+      }
+
+      .staffCostDot {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(0, 168, 236), rgb(0, 224, 188));
+        border-radius: 50%;
+      }
+
+      .rmDot {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(0, 211, 247), rgb(0, 168, 235));
+        border-radius: 50%;
+      }
+
+      .rentalDot {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(0, 242, 191), rgb(0, 224, 139));
+        border-radius: 50%;
+      }
+
+      .thirdPartyDot {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(253, 224, 147), rgb(250, 189, 90));
+        border-radius: 50%;
+      }
+
+      .salesProDot {
+        height: 24px;
+        width: 24px;
+        background-image: linear-gradient(to bottom, rgb(255, 177, 179), rgb(253, 121, 124));
+        border-radius: 50%;
+      }
+
+      .othersDot {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background-image: linear-gradient(to bottom, rgb(255, 145, 191), rgb(255, 88, 139));
+      }
+    }
+
+
+    .headerRight {
+      color: white;
+      font-size: 24px;
+    }
+  }
+
+  .graphContainer {
+    .graphFilters {
+      margin-left: 35px;
+      font-size: 20px;
+      color: #7c92bd;
+    }
+
+    .MsHsdContainer {
+
+      position: relative;
+      top: 35px;
+      right: -130px;
+
+      .MsCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+        top: -11px;
+        position: relative;
+
+        .Ms {
+          font-size: 20px;
+          color: white;
+        }
+      }
+
+      .HsdCircle {
+        height: 48px;
+        width: 45px;
+        background-color: #202c3f;
+        border: solid 1px white;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 9px;
+
+        .Hsd {
+          font-size: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+  .expandIconContainer {
+    .expandIcon {
+      position: relative;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+}
